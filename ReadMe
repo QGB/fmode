@@ -1,4 +1,10 @@
 Root required , Tested in python3
 
-Transfer fm.pickle between two hosts can use:
-      python3 -m http.server
+Usage:
+      Backup:   python3 fmode.py
+
+      Transfer fm.pickle between two hosts can use:
+            python3 -m http.server
+
+      Recovery: python3 fmodeR.py
+ 
