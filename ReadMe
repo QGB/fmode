@@ -1,4 +1,4 @@
 Root required , Tested in python3
 
-transport fm.pickle between two hosts can use:
+Transfer fm.pickle between two hosts can use:
       python3 -m http.server
