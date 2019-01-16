@@ -11,5 +11,5 @@ for i in fs:
 	except Exception as e:
 		print(i,e)
 print('scaned {} files'.format(len(r) )  )
-with open('fm.pickle','wb') as f:
+with open(os.path.dirname(os.path.realpath(__file__)  )+'/fm.pickle','wb') as f:
 	pickle.dump(obj=r,file=f)
