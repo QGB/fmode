@@ -1,5 +1,8 @@
-import os,pathlib,pickle
-fs=list(pathlib.Path('/').glob('**/*'))
+import sys,os,pathlib,pickle
+gsp='/'
+if len(sys.argv)==2:
+	gsp=sys.argv[1]
+fs=list(pathlib.Path(gsp).glob('**/*'))
 r=[]
 for i in fs:
 	i=str(i.absolute())
